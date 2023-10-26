@@ -927,6 +927,23 @@ body {
   .frame2__box {
     flex-direction: column;
   }
+  .frame3__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame3__logo__box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .frame3__logo__box__button {
+    margin-top: 20px;
+    position: absolute;
+    bottom: -100px;
+  }
   .frame3 {
     display: flex;
     transform: none;
@@ -997,6 +1014,15 @@ body {
   .menu__nav__a {
     display: flex;
     transform: translateY(20px);
+  }
+}
+@media (max-width: 1057px) {
+  .frame3__mein__box1 {
+    flex-direction: column;
+    margin-right: 700px;
+    margin-top: 350px;
+    position: relative;
+    margin-left: 25%;
   }
 }
 @media (max-width: 1000px) {
