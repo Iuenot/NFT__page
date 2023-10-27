@@ -472,6 +472,9 @@ body{
 
 
 .frame4{
+    max-width: 1100px;
+    margin: 0 auto;
+
     &__title{
     font-family: Work Sans;
     font-size: 38px;
@@ -1043,7 +1046,7 @@ body{
     }
     .frame3__mein__box1{
         flex-direction: column;
-        margin-right: 70px;
+        margin-right: 8vh;
         margin-top: 350px;
         position: relative;
     }
@@ -1124,12 +1127,12 @@ body{
 
 }
 @media (max-width: 1083px){
+    .frame3{
+        margin-left: 10vh;
+    }
     .frame3__mein__box1{
-        flex-direction: column;
-        margin-right: 700px;
-        margin-top: 350px;
-        position: relative;
-        margin-left: 25%;
+        margin: 0 auto;
+
     }
     .frame8{
         width: 355px;
@@ -1165,6 +1168,7 @@ body{
         flex-direction: column;
         background-color: #2B2B2B;
         width: 355px;
+        position: relative;
     }
     .frame8__box__textbox2-input{
         display: flex;
@@ -1176,6 +1180,9 @@ body{
         border-radius: 20px;
         border: 1px solid var(--caption-label-text, #858584);
         background: var(--Text, #FFF);
+        position: absolute;
+        bottom: 40px;
+        left: 0;
     }
     .frame8__box__textbox2-button{
         height: auto;
@@ -1186,6 +1193,9 @@ body{
         gap: 12px;
         align-self: stretch;
         margin: none;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
     }
 }
 @media (max-width:1000px){
@@ -1385,7 +1395,7 @@ body{
     .frame1__h1{
         color: var(--White, #FFF);
         font-family: Work Sans;
-        font-size: 31px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 600;
         line-height: 140%;
@@ -1417,6 +1427,8 @@ body{
     .statistic__box__text{
         margin-top: 30px;
     }
+
+
     .frame2{
         margin-top: 500px;
     }
